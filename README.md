@@ -32,3 +32,12 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+
+# Todo list
+ - [ ] fetch single product in the api `api/products/[id]`
+ - [ ] filter products by categories
+ - [ ] Create a sidebar
+ - [ ] 
+
+ side trade img https://www.sidetrade.com/wp-content/themes/Archive/assets/images/sidetrade-logo.svg 
