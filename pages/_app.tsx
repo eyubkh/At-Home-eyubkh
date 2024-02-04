@@ -7,10 +7,10 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>Sidetrade Shop</title>
+				<title>Sidetrade Shop by Ayoub</title>
 				<meta
 					name="description"
-					content="The official sidetrade shop to buy plainty of products for your orders."
+					content="The SideTrade shop create by Ayoub to buy plenty of products for your orders to cash business."
 				/>
 				<link rel="icon" href="/favicon.ico" />
 				<link

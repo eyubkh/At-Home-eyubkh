@@ -6,7 +6,6 @@ export default function handler(
 	req: NextApiRequest,
 	res: NextApiResponse<IProduct[]>,
 ) {
-	console.log(req.query);
 	const { limit, offset, category } = req.query;
 
 	const limitNumber = Number(limit);

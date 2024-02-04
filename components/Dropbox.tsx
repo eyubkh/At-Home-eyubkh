@@ -25,9 +25,9 @@ export function DropBox({ setCategory }: Props) {
 					>
 						<path
 							stroke="currentColor"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="2"
 							d="m1 1 4 4 4-4"
 						/>
 					</svg>
@@ -59,7 +59,7 @@ export function DropBox({ setCategory }: Props) {
 					<li>
 						<button
 							type="button"
-							className="w-ful l px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+							className="w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
 							onClick={() => {
 								setCategory(0);
 								setDropdown(false);
@@ -68,19 +68,19 @@ export function DropBox({ setCategory }: Props) {
 							all
 						</button>
 					</li>
-					{Array.from(Array(10).keys()).map((_, index) => {
-						const i = index + 1;
+					{Array.from(Array(10).keys()).map((_, i) => {
+						const index = i + 1;
 						return (
-							<li>
+							<li key={index}>
 								<button
 									type="button"
-									className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+									className="w-full block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
 									onClick={() => {
-										setCategory(Number(i));
+										setCategory(Number(index));
 										setDropdown(false);
 									}}
 								>
-									category {i}
+									category {index}
 								</button>
 							</li>
 						);
