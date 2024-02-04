@@ -33,7 +33,7 @@ const Sidebar = ({ children }: Props) => {
 				</svg>
 			</button>
 
-			{/* fixing mobile toggle with a duplicated sidebar not the best approach 😅   */}
+			{/* fixing mobile toggle with a duplicated sidebar, not the best approach 😅   */}
 			<aside
 				id="default-sidebar"
 				style={{ transform: toggle ? "translateX(0)" : "translateX(-100%)" }}
